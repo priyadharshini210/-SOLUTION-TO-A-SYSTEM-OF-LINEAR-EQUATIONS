@@ -18,16 +18,15 @@ End the program
 #Program to find the solution for the given linear equations.
 #Developed by: Priyadharshini.P
 #RegisterNumber: 23013604
+
 import numpy as np
 A=np.array([[1,-3],[3,1]])
 B=np.array([0,10])
 le=np.linalg.solve(A,B)
 print(le)
 ```
-
-## Output:
-![OUTPUT](image-1.png)
-
+## output:
+![output](image.png)
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
